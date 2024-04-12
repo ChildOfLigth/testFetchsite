@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta lang="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Nationality by Your Name</title>
+  </head>
+  <body>
+    <header id="headerWebsite">
+      <h1>Hello, User!</h1>
+      <h2>
+        I want to provide you with a completely small site with Fetch and
+        requests to a server that can return data. The project uses an
+        <a href="https://nationalize.io/" target="_blank">artificial intelligence server</a> that will try to determine your
+        nationality by name. Good luck!
+      </h2>
+    </header>
+    <form id="form">
+      <label for="form__userName" class="form__infoInput"
+        >Enter your name so we can know your nationality
+      </label>
+      <input name="form__userName" class="form__userName" type="text"/>
+      <input type="submit" value="Search" class="form__sendInquiry" />
+    </form>
+
+    <div id="displaydata"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -193,3 +193,27 @@ a:hover {
     margin: 17px auto;
   }
 }
+
+.warning {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+@media (max-width: 713px) {
+  .warning {
+    font-size: 17px;
+  }
+}
+@media (max-width: 452px) {
+  .warning {
+    font-size: 15px;
+    margin: 0 10px;
+  }
+}
+@media (max-width: 430px) {
+  .warning {
+    font-size: 13px;
+    margin: 0 10px;
+  }
+}

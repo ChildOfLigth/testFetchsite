@@ -133,17 +133,17 @@ a:hover {
     max-width: 400px;
   }
   #form .form__infoInput {
-    font-size: 14.5px;
+    font-size: 14px;
   }
   #form .form__userName {
-    width: 240px;
-    height: 18px;
-    font-size: 14.5px;
+    width: 270px;
+    height: 19px;
+    font-size: 15px;
   }
   #form .form__sendInquiry {
     width: 80px;
     height: 20px;
-    font-size: 12px;
+    font-size: 12.5px;
   }
 }
 @media (max-width: 400px) {
@@ -151,17 +151,18 @@ a:hover {
     max-width: 300px;
   }
   #form .form__infoInput {
-    font-size: 11px;
+    font-size: 13px;
+    margin-right: 6px;
   }
   #form .form__userName {
-    width: 200px;
+    width: 230px;
     height: 15px;
-    font-size: 12px;
+    font-size: 13px;
   }
   #form .form__sendInquiry {
     width: 70px;
-    height: 14px;
-    font-size: 12px;
+    height: 16px;
+    font-size: 13px;
   }
 }
 
